@@ -7,9 +7,15 @@ export default function App() {
   return (
     <View style={styles.container}>
       <StatusBar style="auto" />
-      <ImButton color='black' btnsize='medium' border='radius5' text='Kaydet'/>
+      <ImButton color='primary'  text='Kaydet'/>
       <View style={styles.pad}></View>
-      <ImInput placeholder='Buraya bir şey yaz'/>
+      <ImButton color='black' btnsize='small' border='radius5' text='Kaydet'/>
+      <View style={styles.pad}></View>
+      <ImButton color='secondary' btnsize='medium' border='radius7' text='Kaydet'/>
+      <View style={styles.pad}></View>
+      <ImButton color='danger' btnsize='large' border='radius10' text='Kaydet'/>
+      <View style={styles.pad}></View>
+      <ImInput placeholder='Buraya bir şey yaz' type='email'/>
     </View>
   );
 }
